@@ -1,0 +1,17 @@
+1.All files:
+-first-fifth generation.ipynb: abstractive summary
+-extractive_version.ipynb/.py: extractive summary
+-postitive_negative_judgement.ipynb: a little experiment for
+-int_int.txt: text cases, based on 31 positive reviews and 26 negative reviews
+-negative_words.txt + positive_words.txt: dataset for positive/negative sets
+-results: contains different versions of summaries
+
+2.Each text file name: ID_rank.txt
+EX- 29_8.txt; ID = 29; RANK = 8 stars
+A review is positive if its RANK >= 5; while it's negative when RANK < 5
+
+3.Execute extractive_version.py
+python extractive_version.py input_file number_of_summary(1 or 2)
+
+4.For first-fifth generation version, we only run positive reviews.
+
